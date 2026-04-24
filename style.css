@@ -4,11 +4,49 @@ html body {
     align-items: center;
     margin: 0;
     padding: 0;
+    justify-content: center;
     width: 100%;
-    margin-top: 200px;
     font-family: "Noto Sans Thai", sans-serif;
     font-optical-sizing: auto;
     background-blend-mode: overlay;
+}
+
+.spacer {
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    height: 80px;
+    background-color: #fff8f000;
+    justify-content: center;
+}
+
+.top-header {
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.20);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.603);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px 1px #ffffff;
+    z-index: 1000;
+    display: flex;
+}
+
+.top-header h2 {
+    color: #ffffff;
+    text-shadow: 0 0 20px #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 12px 30px;
+}
+
+.text-header {
+    color: #ffffff;
+    text-shadow: 0 0 20px #ffffff;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 100px 0 100px;
+    text-align: center;
 }
 
 .main_box {
