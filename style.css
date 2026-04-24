@@ -9,6 +9,7 @@ html body {
     font-family: "Noto Sans Thai", sans-serif;
     font-optical-sizing: auto;
     background-blend-mode: overlay;
+    height: 100vh;
 }
 
 .spacer {
